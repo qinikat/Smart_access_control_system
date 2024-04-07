@@ -1,0 +1,20 @@
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'F:\keil5\ARM\ARMCC\Bin'
+Build target 'stm32f103-plane'
+assembling startup_stm32f103xb.s...
+compiling usart.c...
+../Core/Src/usart.c(24): warning:  #520-D: initialization with "{...}" expected for aggregate object
+  uint8_t uart1_rxbuf[100] = 0;
+../Core/Src/usart.c(25): warning:  #520-D: initialization with "{...}" expected for aggregate object
+  uint8_t uart2_rxbuf[100] = 0;
+../Core/Src/usart.c(26): warning:  #520-D: initialization with "{...}" expected for aggregate object
+  uint8_t uart3_rxbuf[100] = 0;
+../Core/Src/usart.c(290): error:  #20: identifier "FILE" is undefined
+  int fputc(int ch, FILE *f)
+../Core/Src/usart.c(302): error:  #20: identifier "FILE" is undefined
+  int fgetc(FILE *f)
+../Core/Src/usart.c: 3 warnings, 2 errors
+compiling stm32f1xx_it.c...
+compiling main.c...
+"stm32f103-plane\stm32f103-plane.axf" - 2 Error(s), 3 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01

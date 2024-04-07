@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "usart.h": "c",
+    "stm32f1xx_hal.h": "c",
+    "oled.h": "c",
+    "as608.h": "c",
+    "main.h": "c",
+    "gpio.h": "c",
+    "tim.h": "c",
+    "stm32f1xx_hal_conf.h": "c",
+    "servo.h": "c",
+    "rc522.h": "c",
+    "oled_font.h": "c"
+  }
+}
